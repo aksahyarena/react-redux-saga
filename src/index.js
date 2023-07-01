@@ -10,7 +10,6 @@ root.render(
 
   // This "Provider" is redux wrapper around our application
    <Provider store={store}> 
-
     <App />
   </Provider>
 );
