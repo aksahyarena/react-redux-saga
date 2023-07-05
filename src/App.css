@@ -6,7 +6,53 @@
   height: 40vmin;
   pointer-events: none;
 }
+.pos-rel{
+  position: relative;
+}
+.header{
+  background:rgba(77, 69, 83, 0.116);
+  height: 90px;
 
+}
+.cart-img img{
+  width:40px;
+  float: right;
+}
+.cart-img{
+  width: 80px;
+  margin-left: auto;
+}
+.item-length {
+  position: absolute;
+  height: 30px;
+  width: 30px;
+  background-color: #fff;
+  color: #000;
+  border-radius: 50%;
+  top: 0px;
+  left: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.text-center{
+  text-align: center;
+}
+
+.product-list img{
+  width: 100px;
+  height: 100px;
+}
+.product-area{
+  background:#ccc;
+  padding: 10px;
+  border: solid 1px #282c34;
+  margin: 10px;
+}
+.product-list{
+  display: grid;
+  grid-template-columns: repeat(3,1fr);
+}
 @media (prefers-reduced-motion: no-preference) {
   .App-logo {
     animation: App-logo-spin infinite 20s linear;
